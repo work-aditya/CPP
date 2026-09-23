@@ -1,26 +1,35 @@
 #include <iostream>
-#include <bits/stdc++.h>
+#include <vector>
 
 using namespace std;
+
 class solution {
     public :
-    bool isIsomorphic(string s, string t){
-        unordered_map <char , char> mps;
-        unordered_map <char , char > mpt;
-
-
-        for (int i =0; i < s.length(); i++){
-            char a = s[i];
-            char b = t[i];
-            
-        }
+    int binarysearch(vector <int> nums, int target){
 
 
     }
 
+
+
 };
 
-int main(){
+int main (){
+    vector <int> nums;
+    int target;
+    int n;
+    cout << "enter number of elements"<<endl;
+    cin >> n;
+    nums.resize(n);
+    for (int i = 0; i<n ; i++){
+        cout << "enter the " << i << "th term " <<endl;
+        cin >> nums[i];     
+    }
+    cout << "enter target " << endl;
+    cin >> target;
+
+    solution s;
+
+    s.binarysearch(nums,target);
 
 }
-
